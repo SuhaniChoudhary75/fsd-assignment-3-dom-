@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Web Page with DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1 id="heading">Welcome to Dynamic Web Page</h1>
+
+        <!-- Button to change text -->
+        <button onclick="changeText()">Change Text</button>
+
+        <!-- Image to be manipulated -->
+        <img id="image" src="image1.jpg" alt="Sample Image" width="200" height="200">
+        <button onclick="changeImage()">Change Image</button>
+
+        <!-- List of items -->
+        <ul id="itemList">
+            <li class="list-item">Item 1</li>
+            <li class="list-item">Item 2</li>
+            <li class="list-item">Item 3</li>
+        </ul>
+
+        <!-- Button to add text node -->
+        <button onclick="addTextNode()">Add Text Node</button>
+
+        <!-- Button to delete the last node in the list -->
+        <button onclick="deleteNode()">Delete Last Item</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
